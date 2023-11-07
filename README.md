@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Ticketing system.
 
 ## Installation Instructions
 
@@ -41,32 +41,7 @@ docker-compose up
 
 ## API
 This is list CURL to verify API:
-* /login: login with user created to get authentication token.
-* /upload: API upload file for import transaction, client can choose file cvs, xlsx.
-* Link to Import Collection into Postman: https://drive.google.com/file/d/1B2ieSbP-W6ZUKRgZrRGcHxiIjiClX5io/view?usp=sharing
-
-## Test
-
-```bash
-# unit tests
-$ pnpm run test
-
-# e2e tests
-$ pnpm run test:e2e
-
-# test coverage
-$ pnpm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+* /reservations: API buy ticket.
 
 ## License
 
