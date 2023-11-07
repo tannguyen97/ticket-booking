@@ -43,7 +43,7 @@ docker-compose up
 ## API
 This is list CURL to verify API:
 * /reservations: API buy ticket.
-
+* Link to Import Collection into Postman: https://drive.google.com/file/d/16ticl5SXiotFpfgoZXBgdt2vdN63I5mo/view?usp=sharing
 ## License
 
 Nest is [MIT licensed](LICENSE).
