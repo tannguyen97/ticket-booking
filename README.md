@@ -34,6 +34,7 @@ How to start:
 In root folder:
 * Open new terminal to setting up containers:
 ```bash
+pnpm i
 docker-compose up
 ```
 * ImportDB (Mongodb) run on port `27018`
