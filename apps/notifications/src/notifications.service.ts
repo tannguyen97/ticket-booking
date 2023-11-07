@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { SendEmailCommand, SESClient } from '@aws-sdk/client-ses';
 import { ConfigService } from '@nestjs/config';
-import { error } from 'console';
 import { NotifyEmailDto } from './dto/notify-email.dto';
 
 @Injectable()
